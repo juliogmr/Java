@@ -1,0 +1,15 @@
+java
+
+// "Calcular a mediana do conjunto abaixo, após ordenação:
+arr = [9, 2,1,4,6] //
+
+int[] arr = { 9, 2, 3, 4, 6};
+        Arrays.sort(arr);
+        
+        for (int i = 0; i < arr.length; i++) {
+            int esq=0;
+            int dir = arr.length -1;
+            int meio = (esq+dir)/2;
+            int mediana = arr[meio];
+            
+            System.out.println(mediana);
